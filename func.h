@@ -82,9 +82,7 @@ void loadFromFile(Shape** arr, int SIZE)
            getline(fin, name);
             
         }
+        cout << "\nДанні успішно завантажено з файлу\n";
     }    
-    
-    cout << "\nДанні завантажено з файлу = кінець методу\n";
-
     fin.close();
 }
